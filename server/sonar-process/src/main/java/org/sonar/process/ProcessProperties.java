@@ -159,7 +159,8 @@ public class ProcessProperties {
       props.setDefault(entry.getKey().toString(), entry.getValue().toString());
     }
 
-    fixPortIfZero(props, Property.SEARCH_HOST.getKey(), Property.SEARCH_PORT.getKey());
+    // No need to fix port if external
+    // fixPortIfZero(props, Property.SEARCH_HOST.getKey(), Property.SEARCH_PORT.getKey());
   }
 
   public static Properties defaults() {
