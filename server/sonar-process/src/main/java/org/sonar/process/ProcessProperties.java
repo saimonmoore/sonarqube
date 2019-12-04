@@ -54,8 +54,8 @@ public class ProcessProperties {
     PATH_TEMP("sonar.path.temp", "temp"),
     PATH_WEB("sonar.path.web", "web"),
 
-    SEARCH_HOST("sonar.search.host", InetAddress.getLoopbackAddress().getHostAddress()),
-    SEARCH_PORT("sonar.search.port", "9001"),
+    SEARCH_HOST("sonar.search.host"),
+    SEARCH_PORT("sonar.search.port"),
     SEARCH_HTTP_PORT("sonar.search.httpPort"),
     SEARCH_JAVA_OPTS("sonar.search.javaOpts", "-Xms512m -Xmx512m -XX:+HeapDumpOnOutOfMemoryError"),
     SEARCH_JAVA_ADDITIONAL_OPTS("sonar.search.javaAdditionalOpts", ""),
